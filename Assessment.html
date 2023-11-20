@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Generator</title>
+    <link rel="stylesheet" href="Assessment.css">
+</head>
+<body>
+        <h1>DA MEME MACHINE</h1>
+        <div class="form-container">
+            <form action="#" id="meme-generator">
+                <div class="form-group">
+                    <label for="img">Image URL</label>
+                    <input type="url" id="img-url" name="img-url" placeholder="https://example.com">
+                </div>
+
+                <div class="form-group">
+                    <label for="upper-text">Text on top</label>
+                    <input type="text" id="upper-text" name="upper-text" placeholder="Enter Text Here">
+                </div>
+
+                <div class="form-group">
+                    <label for="lower-text">Text on bottom</label>
+                    <input type="text" id="lower-text" name="lower-text" placeholder="Enter Text Here">
+                </div>
+
+                <input type="submit" value="Submit" id="submit-button">
+            </form>
+        </div>
+
+        <div id="meme-section">
+            <div class="meme-container" id="meme-block"></div>
+        </div>
+
+    <script src="Assessment.js"></script>
+</body>
+</html>
